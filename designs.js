@@ -1,14 +1,10 @@
 // Select color input
 // Select size input
 
-// When size is submitted by the user, call makeGrid()
-
 
 function makeGrid() {
 
-// Your code goes here!
-
-
+// run makeGrid funtion
 	console.log('Running makeGrid');
 	var height, width, color, canvas;
 
@@ -36,6 +32,7 @@ function makeGrid() {
 
 }
 
+//tigger markGrid function when users click on submit
 $("#sizePicker").submit(function(event){
 	event.preventDefault();
 	makeGrid();
