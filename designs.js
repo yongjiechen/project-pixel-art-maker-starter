@@ -16,7 +16,7 @@ function makeGrid() {
 	width = $("#inputWeight").val();
 	canvas = $("#pixelCanvas");
 	
-	//canvas.children().remove();
+	canvas.children().remove();
 
 	for (var i = 0; i < height; i++) {
 		canvas.append("<tr> </tr>");
